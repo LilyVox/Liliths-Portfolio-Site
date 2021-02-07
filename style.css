@@ -48,9 +48,7 @@ hr {
     border-radius: 6px;
     box-shadow: 2px 1px 4px #7A7A7A;
 }
-h1 {
-    font: 72px 'Merienda', cursive;
-}
+h1 { font: 72px 'Merienda', cursive;}
 
 /*Header image formatting*/
 img{ float: right;}
@@ -60,7 +58,6 @@ a:link{
     color: #FC2F00;
     padding: 2px;  
     text-decoration: none;
-    font-weight: 400;
 }
 a:visited{
     color: #303633;
@@ -71,13 +68,13 @@ a:hover{
     text-decoration: underline;
 }
 a:active{color: #CE2D4F;}
+body>main>article>p>a:active{background-color: #000605;}
 
 /*Icon styling and pseudo-styling.*/
 i{
     font-size: 72px;
     color: #08A4BD;
     border-radius: .1em;
-
     padding: .1em;
 }
 i:link, i:visited{
@@ -105,13 +102,13 @@ mark{
 }
 .left-it { text-align: left;}
 .shade-it { text-shadow: 6px 4px 8px #000605;}
-
+.down-it {padding-top: 5em;}
 /*icon styling*/
 .icon-section{
     height: 100%;
     width: 100%;
     display: inline-block;
-    padding: 0em 1em 1em 20%;
+    padding: 0em 1em 1em 25%;
     
 }
 .icon-pad{
